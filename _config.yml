@@ -1,0 +1,14 @@
+markdown:         redcarpet
+pygments:         true
+
+permalink:        date
+
+title:            'Casper Beyer'
+tagline:          'Developer, Designer'
+description:      'Writing about various software development and design.'
+url:              http://caspervonb.github.com
+
+author:
+   name:           'Casper Beyer'
+
+paginate:         3

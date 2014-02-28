@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<ins class='sponsored adsbygoogle' data-ad-client='ca-pub-3538270718430385' data-ad-slot='5157004025'>
+</ins>
+
+<article class="post">
+   <h1 class="post-title">{{ page.title }}</h1>
+   <time class="post-date" datetime='{{ page.date | date_to_xmlschema }}'>
+      {{ page.date | date_to_string }}
+   </time>
+   {{ content }}
+
+   <aside class="related">
+      <h4>Related Posts</h4>
+      {% for post in site.related_posts limit:3 %}
+      <a class='related-link' href="{{ post.url }}">
+         {{ post.title }}
+         <small>{{ post.date | date_to_string }}</small>
+      </a>
+      {% endfor %}
+   </aside>
+</article>
+
+<ins class='sponsored adsbygoogle' data-ad-client='ca-pub-3538270718430385' data-ad-slot='5157004025'>
+</ins>
