@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 'JavaScript Game Development Asynchronous Execution Loop'
+title: JavaScript Game Development Asynchronous Execution Loop
+published: true
 ---
 
 Obviously one of the core components of any game is the _game loop_. The
