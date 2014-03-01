@@ -5,7 +5,7 @@ title: JavaScript Game Development Managing States
 ---
 
 Unlike an application, which typically only has one state of execution where
-you have your and manipulate it with various tools and operations, games, even
+you have your data and manipulate it with various tools and operations, games, even
 a simplistic one, often has several distinct states of execution. If we use the
 classic [pong](http://www.atari.com/arcade#!/arcade/pong/play) as an example we
 can identify five unique states of execution the game goes through, the loading
