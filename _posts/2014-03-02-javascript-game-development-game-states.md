@@ -1,9 +1,8 @@
 ---
-published: false
+published: true
 layout: post
 title: JavaScript Game Development Managing States
 ---
-
 
 Unlike an application, which typically only has one state of execution where
 you have your and manipulate it with various tools and operations, games, even
