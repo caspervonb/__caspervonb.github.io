@@ -1,9 +1,10 @@
 ---
 layout: post
-title: JavaScript Game Development Asynchronous Execution Loop
+title: "JavaScript Game Development - Asynchronous Execution Loop"
 published: true
 ---
 
+## Introduction
 Obviously one of the core components of any game is the _game loop_. The
 central piece of code that is responsible for balancing the execution of
 game logic and drawing operations.
