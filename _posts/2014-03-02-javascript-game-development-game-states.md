@@ -1,9 +1,16 @@
 ---
 published: true
 layout: post
-title: JavaScript Game Development Managing States
+title: "JavaScript Game Development - Managing States"
 ---
 
+## Table f Contents
+- [Introduction](#introduction)
+- [What Is a Game State?](#what-is-a-game-state)
+- [Managing Game States](#managing-game-states)
+- [Composing Game States](#composing-game-states)
+
+## Introduction
 Unlike an application, which typically only has one state of execution where
 you have your data and manipulate it with various tools and operations, games, even
 a simplistic one, often has several distinct states of execution. If we use the
@@ -15,7 +22,7 @@ We could handle this using conditions to control the execution flow.  However
 such an approach quickly becomes tedious and difficult to maintain, even for a
 simple game.
 
-## What Is A Game State?
+## What Is a Game State?
 Lets take a step back and actually define what a game state is, a game
 state is a separate state of execution within the game, that in most
 cases has its own unique event handling, logic and drawing mechanisms.
