@@ -108,7 +108,7 @@ class Game {
 ```
 ## Requesting Animation Frames
 [setTimeout] will work just fine in many cases, but here is the problem.
-[setTimeout] is not simply precise enough, the timer resolution varies greatly
+[setTimeout] is not precise enough, the timer resolution varies greatly
 depending on the browser, anywhere from 2-20 milliseconds and really that is
 just an indication, not a guarantee.
 
