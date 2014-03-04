@@ -4,12 +4,6 @@ layout: post
 title: "JavaScript Game Development - Managing States"
 ---
 
-## Table f Contents
-- [Introduction](#introduction)
-- [What Is a Game State?](#what-is-a-game-state)
-- [Managing Game States](#managing-game-states)
-- [Composing Game States](#composing-game-states)
-
 ## Introduction
 Unlike an application, which typically only has one state of execution where
 you have your data and manipulate it with various tools and operations, games, even
