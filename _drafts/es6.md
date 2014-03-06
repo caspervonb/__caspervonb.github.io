@@ -115,7 +115,7 @@ var origin = new Point(0, 0);
 console.log(origin);
 ```
 
-### Method definition
+### Method Definition
 Provides shorthand syntax for method definitions in object literals, this syntax is also compatible with [classes](#classes).
 
 Example:
@@ -232,7 +232,7 @@ Generator expressions provide a convenient, declarative form for creating genera
 ```
 
 ### Arrow Functions
-Arrow functions provide a more terse syntax for closures. this that, etc no more.
+Arrow functions provide a shorthand syntax for function expressions.
 
 ```javascript
 element.addEventListener('click' (e) => console.log(e));
