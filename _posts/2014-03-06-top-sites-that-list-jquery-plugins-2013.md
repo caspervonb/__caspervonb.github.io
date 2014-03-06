@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Top Sites That List jQuery Plugins for 2013
 ---
