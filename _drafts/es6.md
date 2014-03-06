@@ -9,11 +9,11 @@ title: 'JavaScript 2.0/ECMAScript 6 Features, Syntax and Tools'
 
 > This article is a work in progress, and might not contain all the features in the spesification,
 > and will change to reflect the specification as the specification changes.
-> Please direct any feedback [@caspervonb](http://twitter.com/caspervonb).
+> Please direct any feedback [@caspervonb](http://twitter.com/caspervonb) and i will update it accordinly.
 
 ## Introduction
-ECMAScript 6 "Harmony" the upcoming upcoming version of the ECMAScript standard, the standard previously said to be rattified in late 2013, is now targgeting rafficaition in late 2014.
-However, it is unlikelyyou can use it right now, lets examine some of its new language features, library changes and available tools.
+ECMAScript 6 "Harmony" is the upcoming upcoming version of the ECMAScript standard, the standard previously said to be ratified in late 2013, is now targgeting ratification in late 2014.
+However, even tho it is not standardized yet, it has gone into a feature freeze and most of the proposed features have stabilized, with that in mind let us examine some of its new language features, library changes and available tools for using it today.
 
 ## Features
 ### Block Scoping
