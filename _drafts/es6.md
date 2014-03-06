@@ -123,8 +123,8 @@ Example:
 obj = {
    toString() {
       return "obj";
-   }
-}
+   },
+};
 ```
 
 ### Classes
