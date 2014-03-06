@@ -16,13 +16,6 @@ ECMAScript 6 "Harmony" the upcoming upcoming version of the ECMAScript standard,
 However, it is unlikelyyou can use it right now, lets examine some of its new language features, library changes and available tools.
 
 ## Features
-- [Block Scoping](#block-scoping)
-- [Destructuring](#destructuring)
-- [Default Parameter Values](#default-parameter-values)
-- [Rest Parameters](#rest-parameters)
-- [Spread Operator](#spread-operator)
-- [Classes](#classes)
-
 ### Block Scoping
 Variables declared with `var` have a function-level scope, block scoping introduces new forms of declaration for defining variables scoped to a single block.
 These include `var`, `const` and `function`.
@@ -117,16 +110,8 @@ var origin = new Point(0, 0);
 console.log(origin);
 ```
 
-### Object Literal Enhancements
-Provides a shorthand syntax for object initialization.
-
-```javascript
-function f( x, y ) {
-  return { x, y };
-}
-```
-
-Also provides shorthand syntax for method definitions.
+### Method definition
+Provides shorthand syntax for method definitions.
 
 ```javascript
 obj = {
