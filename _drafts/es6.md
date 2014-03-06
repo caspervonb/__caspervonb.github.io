@@ -24,30 +24,29 @@ However, it is unlikelyyou can use it right now, lets examine some of its new la
 - [Classes](#classes)
 
 ### Block Scoping
-Variables declared with `var` are scoped [lexically](http://en.wikipedia.org/wiki/Scope_%28computer_science%29#Lexical_scoping), block scoping introduces new forms of declaration for defining variables scoped to a single block.
+Variables declared with `var` have a function-level scope, block scoping introduces new forms of declaration for defining variables scoped to a single block.
+These include `var`, `const` and `function`.
 
 Using `let` in place of `var` allows you to define block-local variables without having to worry about them clashing with variables elsewhere within the same function body.
 
+Example:
 ```javascript
-function f(...) {
-   let log = console.log;
-
-   if (...) {
-      let log = Math.log;
-      log(...); // Math.log
-   }
-
-   log('f(...)'); // console.log
+for (var i = 0; i < 3; i++) {
+   let j = i * i;
+   console.log(j);
 }
+console.log(j); // => error, j is undefined
 ```
 
-Using `const` in place of `var` allows you to have immutable values.
+Using `const` in place of `var` follow the same rules, except that the value is immutable so you can only assign to it once.
+
+Example:
 ```javascript
 const PI = 3.14159265359;
 PI = 0; // => error, const already defined.
 ```
 
-### Destructuring
+### Destructuring Assignment
 Destructuring allows you to assign multiple variables at once.
 
 ```javascript
