@@ -5,7 +5,7 @@ title: Top Sites That List jQuery Plugins for 2013
 ---
 
 ## Introduction
-Sites that list jQuery sites are one of the more popular sites on the web, and there are alot of sites that list jQuery plugins available around the web. Every day even more sites that list top jQuery sites on the web are released, but today i have collected the best sites that list jQuery plugins of 2013, on the web.
+Sites that list jQuery plugins are one of the more popular sites on the web, and there are alot of sites that list jQuery plugins available around the web. Every day even more sites that list top jQuery plugins on the web are released, but today i have collected the best sites that list jQuery plugins of 2013, on the web.
 
 Sorted by arbritrary selection and criteria,
 here are the best top sites that list jQuery plugins of 2013, for FREE!
