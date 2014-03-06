@@ -1,10 +1,7 @@
 ---
 published: false
----
-
----
 layout: post
-title: 'JavaScript 2.0/ECMAScript 6 Features, Syntax and Tools'
+title: "ECMAScript 6 Features, Syntax and Tools"
 ---
 
 > This article is a work in progress, and might not contain all the features in the specification,
