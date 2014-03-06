@@ -20,7 +20,7 @@ However, it is unlikelyyou can use it right now, lets examine some of its new la
 Variables declared with `var` have a function-level scope, block scoping introduces new forms of declaration for defining variables scoped to a single block.
 These include `var`, `const` and `function`.
 
-Using `let` in place of `var` allows you to define block-local variables without having to worry about them clashing with variables elsewhere within the same function body.
+Using `let` in place of `var` allows you to define block-local variables without having to worry about them clashing with variables defined elsewhere within the same function body.
 
 Example:
 ```javascript
@@ -31,7 +31,7 @@ for (var i = 0; i < 3; i++) {
 console.log(j); // => error, j is undefined
 ```
 
-Using `const` in place of `var` follow the same rules, except that the value is immutable so you can only assign to it once.
+Using `const` in place of `var` follow the same afformentioned rules, except that the value is immutable so you can only assign to it once.
 
 Example:
 ```javascript
@@ -40,33 +40,37 @@ PI = 0; // => error, const already defined.
 ```
 
 ### Destructuring Assignment
-Destructuring allows you to assign multiple variables at once.
+Destructuring assignment allows the assignment of parts of data structures to several variables at once.
 
+Examples:
 ```javascript
 var [a, b, c] = ['hello', ', ', 'world'];
 console.log(a + b + c); // hello, world
 ```
 
-It can also be used to unpack the values of an object.
-```
-var {x, y} = new Point(3, 4);
+```javascript
+var point = new Point();
+// ...
+var {y} = point;
 ```
 
 ### Default Parameter Values
 Default parameter values allows us to initialize parameters when they were not explicitly provided. This means that we no longer have to handle `undefined` just in order to provide default values.
 
+Example:
 ```javascript
 function Point(x = 0, y = 0) {
    this.x = x;
    this.y = y;
 }
 
-var p = new Point(); // { 0, 0 }
+var p = new Point(); // => { 0, 0 }
 ```
 
 ### Rest Parameters
 Rest parameters provides a cleaner way of dealing with variadic functions, that is functions that take a arbitrary number of parameters.
 
+Example:
 ```javascript
 function add(...values) {
    let sum = 0;
@@ -84,6 +88,7 @@ add(2, 5, 3); // => 10
 ### Spread Operator
 The spread operator allows an expression to be expanded in places where multiple arguments or multiple elements are expected. 
 
+Example:
 ```javascript
 var a = [0, 1, 2];
 var b = [3, 4, 5];
@@ -111,8 +116,9 @@ console.log(origin);
 ```
 
 ### Method definition
-Provides shorthand syntax for method definitions.
+Provides shorthand syntax for method definitions in object literals, this syntax is also compatible with [classes](#classes).
 
+Example:
 ```javascript
 obj = {
    toString() {
@@ -122,8 +128,9 @@ obj = {
 ```
 
 ### Classes
-Classes provide simple declarative syntax for defining prototypes and inheritance chains.
+Classes provide clean simple declarative syntax for defining object prototypes and inheritance chains.
 
+Example:
 ```javascript
 class Monster extends Character {
    constructor(name, health) {
@@ -152,8 +159,8 @@ class Monster extends Character {
 
 ### Symbols
 Symbols are a new kind of object that can be used as a unique property name in objects.
-Using symbols instead of strings allows you to create properties that don't conflict with one another.
-Symbols can also be made private, so that their properties can't be accessed by anyone who doesn't already have direct access to the symbol.
+Using symbols instead of strings allows you to create properties that don't conflict with eachother.
+Symbols can also be made private, so that their properties can't be accessed by anyone who doesn't already have direct access to the symbol itself.
 
 ```javascript
 var dead = new Symbol('dead');
@@ -177,10 +184,11 @@ char.dead = true; // => undefined
 ```
 
 ### Iterators
-Iterators allow any object to be iterable with the `for-of` loop, provided they define an `iterator()` method, an iterator is any object that has a `next()` method.
+Iterators allow for any object to be iterable with the `for-of` loop, provided they define an `iterator()` method, an iterator is any object that has a `next()` method.
 
+Example:
 ```
-collection = {
+list = {
    iterator() {
       next: () {
       },
@@ -197,18 +205,21 @@ for (let word of ['one', 'two', 'three']) {
 ```
 
 ### Generators
-Generators make it easy to create iterators. Instead of tracking state yourself and implementing `iterator`, you just use yield (or yield* to yield each element in an iterator): 
+Generators make it easy to create iterators. Instead of tracking state yourself and implementing `iterator`, you just use yield (or yield* to yield each element in an iterator).
+
+Example:
+```javascript
+```
 
 ### Array Comprehensions
 Array comprehensions provide a convenient, declarative form for creating computed arrays with a literal syntax that reads naturally. 
 
-Filtering an array:
+Example, filtering an array:
 ```javascript
 [ x for (x of a) if (x.color === ‘blue’) ]
 ```
 
-Mapping an array:
-
+Example, mapping an array:
 ```javascript
 [ square(x) for (x of [1,2,3,4,5]) ]
 ```
@@ -221,7 +232,7 @@ Generator expressions provide a convenient, declarative form for creating genera
 ```
 
 ### Arrow Functions
-Arrow functions provide a more convinient syntax for one-liner functions.
+Arrow functions provide a more terse syntax for closures. this that, etc no more.
 
 ```javascript
 element.addEventListener('click' (e) => console.log(e));
@@ -230,16 +241,16 @@ element.addEventListener('click' (e) => console.log(e));
 ### Template Strings
 Template strings allows us to use string literals with embedded expressions within them.
 
-##### String Interpolation.
-
+Using template strings, you can do string interpolation with succinct simple syntax.
+Example:
 ```javascript
 var x = 1;
 var y = 2;
-`${ x } + ${ y } = ${ x + y}`  // => "1 + 2 = 3"
+console.log(`${ x } + ${ y } = ${ x + y}`); // => "1 + 2 = 3"
 ```
 
-Using template strings lets us do multiline strings.
-
+Using template strings you can do literal multiline strings in a convinient manner.
+Example:
 ```
 var s = `a
    b
@@ -249,7 +260,7 @@ assert(s === 'a\n   b\n   c');
 ```
 
 ## Transpilation
-Currently, it's a bit mix and match of what browser implements which features, and it's going to be a long time before vendors catch up and become feature complete. Even then there is that **one** browser that you know will take even longer to catch up so running this directly harmony in the browser is not feasable.
+Currently, it's a bit mix and match as to what browser implements which features, and it's going to be a long time before vendors catch up and become feature complete. Even then there is that **one** browser that you know will take even longer to catch up so running this directly harmony in the browser is not feasable.
 
 What we can do however is [transpile](http://en.wikipedia.org/wiki/Source-to-source_compiler) our source code to run in ES5 compatible browsers. Google has a project called [Traceur](https://github.com/google/traceur-compiler) which has been around since 2011, in the early days it was experimentation with possible future syntax, now that future syntax is here and going forward it looks like they are focusing on getting together an ES6 compatible transpiler.
 
