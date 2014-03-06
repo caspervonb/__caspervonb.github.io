@@ -10,7 +10,7 @@ Sites that list jQuery sites are one of the more popular sites on the web, and t
 Sorted by arbritrary selection and criteria,
 here are the best top sites that list jQuery plugins of 2013, for FREE!
 
-## [jQuery4u]()
+## [jQuery4u](http://www.jquery4u.com/plugins/top-100-jquery-plugins-year-2013-part-15/)
 jQuery4u features a list of 100 jQuery plugins with *only* 5 ads, the ads even use fixed positioning so you will always be able to see them in case that had you worried.
 With informative nuggets like "Contdown jQuery - a jQuery countdown timer", this is pure gold.
 
@@ -23,5 +23,5 @@ Featuring 12 ad spaces and 15 adspaces, it lists jQuery plugins.
 ## [jQuery](https://plugins.jquery.com/)
 This one is obviously just trying to rip of all the other sites that list jQuery plugins and must be screen scraping all of them, its ad free and focused on delivering content, I call shinanigans! SHINANIGANS!
 
-## [Google](http://google.com/jQuery plugin)
+## [Google](https://www.google.com.ph/?q=jQuery+Plugin)
 This one is just crazy, can't beleive one person compiled a list of around 23,800,000 plugins!
