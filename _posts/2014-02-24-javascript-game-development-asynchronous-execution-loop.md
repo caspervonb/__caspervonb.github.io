@@ -4,6 +4,9 @@ title: "JavaScript Game Development - Asynchronous Execution Loop"
 published: true
 ---
 
+> This article uses ECMAScript 6 syntax for exposition,
+> See [ECMAScript 6 Features and Tools]({% post_url 2014-03-05-ecmascript6-features-and-tools.md %}) if this syntax is unfamiliar to you.
+
 ## Introduction
 Obviously one of the core components of any game is the _game loop_. The
 central piece of code that is responsible for balancing the execution of
@@ -270,6 +273,8 @@ simple polyfills.
    })();
 })();
 ```
+
+
 
 [setInterval]: http://docs.webplatform.org/wiki/dom/Window/setInterval "setInterval"
 [setTimeout]: http://docs.webplatform.org/wiki/dom/Window/setTimeout "setTimeout"
