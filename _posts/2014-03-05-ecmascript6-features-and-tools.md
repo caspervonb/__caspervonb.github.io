@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: "ECMAScript 6 Features and Tools"
+title: ECMAScript 6 Features and Tools
 ---
 
 > This article is a work in progress, and might not contain all the features in the specification,
@@ -266,6 +266,14 @@ var s = `a
 
 assert(s === 'a\n   b\n   c');
 ```
+<script type="text/javascript">
+
+<!--
+amazon_ad_tag = "caspervonb-20"; amazon_ad_width = "300"; amazon_ad_height = "250"; amazon_ad_border = "hide";//-->
+</script>
+<script type="text/javascript" src="http://ir-na.amazon-adsystem.com/s/ads.js">
+
+</script>
 
 ## Transpilation
 Currently, it's a bit mix and match as to what browser implements which features, and it's going to be a long time before vendors catch up and become feature complete. Even then there is that **one** browser that you know will take even longer to catch up so running this directly harmony in the browser is not feasible.
