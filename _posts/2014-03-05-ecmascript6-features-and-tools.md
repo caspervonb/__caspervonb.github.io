@@ -38,7 +38,8 @@ Example:
 
 ```javascript
 const PI = 3.14159265359;
-PI = 0; // => error, const already defined.
+PI = 0; // => 0
+console.log(PI); // => 3.14159265359
 ```
 
 ### Destructuring Assignment
