@@ -9,8 +9,6 @@ title: ECMAScript 6 Features and Tools
 > Please direct any feedback [@caspervonb](http://twitter.com/caspervonb) and i will update it accordingly.
 
 ## Introduction
-<a href="http://www.amazon.com/gp/product/1430247169/ref=as_li_tf_il?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430247169&linkCode=as2&tag=caspervonb-20"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1430247169&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=caspervonb-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=caspervonb-20&l=as2&o=1&a=1430247169" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-
 ECMAScript 6 "Harmony" is the upcoming version of the ECMAScript standard, the standard previously said to be ratified in late 2013, is now targeting ratification in late 2014.
 However, even tho it is not standardized yet, it has gone into a feature freeze and most of the proposed features have stabilized, so it is reasonably safe to start using it today. With that in mind let us examine some of its new language features, library changes and available tools for using it today.
 
