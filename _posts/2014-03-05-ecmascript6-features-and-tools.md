@@ -266,10 +266,12 @@ var s = `a
 
 assert(s === 'a\n   b\n   c');
 ```
+
 <script type="text/javascript">
 
 <!--
-amazon_ad_tag = "caspervonb-20"; amazon_ad_width = "300"; amazon_ad_height = "250"; amazon_ad_border = "hide";//-->
+amazon_ad_tag = "caspervonb-20"; amazon_ad_width = "728"; amazon_ad_height = "90"; amazon_ad_border = "hide";//-->
+
 </script>
 <script type="text/javascript" src="http://ir-na.amazon-adsystem.com/s/ads.js">
 
