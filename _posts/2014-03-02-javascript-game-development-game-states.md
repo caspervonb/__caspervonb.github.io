@@ -4,7 +4,6 @@ layout: post
 title: "JavaScript Game Development - Managing States"
 ---
 
-## Introduction
 Unlike an application, which typically only has one state of execution where
 you have your data and manipulate it with various tools and operations, games, even
 a simplistic one, often has several distinct states of execution. If we use the
