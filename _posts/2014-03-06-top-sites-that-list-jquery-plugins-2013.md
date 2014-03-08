@@ -24,3 +24,5 @@ This one is obviously just trying to rip of all the other sites that list jQuery
 
 ## [Google](https://www.google.com.ph/?q=jQuery+Plugin)
 This one is just crazy, can't beleive one person compiled a list of around 23,800,000 plugins!
+
+> If the humor was lost on you, this is satire of what i find an annoying problem when searching for JavaScript related resources.
