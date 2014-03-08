@@ -175,12 +175,11 @@ function RangeIterator(min, max) {
       return {
          next: function () {
             current++;
-
-            if (current > max) {
-               throw StopIteration;
-            }
-
-            return current;
+            
+            return {
+               done: current == max,
+               value: current,
+            };
          }
       }
    };
@@ -221,7 +220,7 @@ Array comprehensions provide a convenient, declarative form for creating compute
 Example, filtering an array:
 
 ```javascript
-[ x for (x of a) if (x.color === ‘blue’) ]
+[ x for (x of a) if (x.color === 'blue') ]
 ```
 
 Example, mapping an array:
@@ -234,7 +233,7 @@ Example, mapping an array:
 Generator expressions provide a convenient, declarative form for creating generators with a syntax based on array comprehensions.
 
 ```javascript
-(x for (x of generateValues()) if (x.color === ‘blue’))
+(x for (x of generateValues()) if (x.color === 'blue'))
 ```
 
 ### Arrow Functions
@@ -248,6 +247,7 @@ element.addEventListener('click' (e) => console.log(e));
 Template strings allows us to use string literals with embedded expressions within them.
 
 Using template strings, you can do string interpolation with succinct simple syntax.
+
 Example:
 
 ```javascript
@@ -257,6 +257,7 @@ console.log(`${ x } + ${ y } = ${ x + y}`); // => "1 + 2 = 3"
 ```
 
 Using template strings you can do literal multiline strings in a convinient manner.
+
 Example:
 
 ```
