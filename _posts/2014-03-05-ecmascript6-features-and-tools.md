@@ -4,7 +4,6 @@ layout: post
 title: ECMAScript 6 Features and Tools
 ---
 
-## Introduction
 ECMAScript 6 "Harmony" is the upcoming version of the ECMAScript standard, the standard previously said to be ratified in late 2013, is now targeting ratification in late 2014.
 However, even tho it is not standardized yet, it has gone into a feature freeze and most of the proposed features have stabilized, so it is reasonably safe to start using it today. With that in mind let us examine some of its new language features, library changes and available tools for using it today.
 
