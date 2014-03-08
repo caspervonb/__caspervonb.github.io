@@ -291,8 +291,6 @@ There is also [es6-transpiler](https://github.com/termi/es6-transpiler) which tr
 
 <figure style='display: inline-block; padding: 15px;'>
 
-<a href="http://www.amazon.com/gp/product/1593275404/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275404&linkCode=as2&tag=caspervonb-20"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1593275404&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=caspervonb-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=caspervonb-20&l=as2&o=1&a=1593275404" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.com/gp/product/0321898389/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321898389&linkCode=as2&tag=caspervonb-20"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0321898389&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=caspervonb-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=caspervonb-20&l=as2&o=1&a=0321898389" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </figure>
-
-
 </aside>
