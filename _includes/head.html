@@ -7,7 +7,7 @@
 
    {% if page.description %}
      <meta name="description" content="{{ page.description | truncatewords: 200 | strip_newlines | escape_once }}" />
-   {% else if page.excerpt %}
+   {% elsif page.excerpt %}
       <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 200 | strip_newlines | escape_once }}" />
    {% else %}
      <meta name="description" content="{{ content | strip_html | truncatewords: 200 | strip_newlines | escape_once }}" />
