@@ -104,8 +104,17 @@ var b = [3, 4, 5];
 a.push(...b); // => [0, 1, 2, 3, 4, 5]
 ```
 
-### Method Definition
-Provides shorthand syntax for method definitions in object literals, this syntax is also compatible with classes.
+### Property Value Shorthand
+Provide a shorthand syntax for object initialisers whose property keys are initialized by variables of the same name.
+
+```javascript
+function f( x, y ) {
+  return { x, y };
+}
+```
+
+### Method Definition Shorthand
+Provides shorthand syntax for method definitions in object initializers, this syntax is also compatible with classes.
 
 Example:
 
