@@ -165,9 +165,8 @@ Example:
 ```javascript
 let dead = Symbol();
 
-let obj = {
-   [dead]: false,
-};
+let obj = { };
+obj[dead] = false;
 ```
 
 ### Iterators
