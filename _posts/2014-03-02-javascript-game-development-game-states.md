@@ -323,3 +323,21 @@ class GameOverState extends GameState {
       // ...
    }
 ```
+
+<aside style="display: inline-block;">
+<h4>Related Books</h4>
+
+<figure style='display: inline-block; padding: 15px;'>
+<a href="http://www.amazon.com/gp/product/0132761610/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=1789&creative=9325&creativeASIN=0132761610&linkCode=as2&tag=caspervonb-20"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0132761610&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=caspervonb-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=caspervonb-20&l=as2&o=1&a=0132761610" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+</figure>
+
+<figure style='display: inline-block; padding: 15px;'>
+<a href="http://www.amazon.com/gp/product/0321886925/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=1789&creative=9325&creativeASIN=0321886925&linkCode=as2&tag=caspervonb-20"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0321886925&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=caspervonb-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=caspervonb-20&l=as2&o=1&a=0321886925" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</figure>
+
+<figure style='display: inline-block; padding: 15px;'>
+<a href="http://www.amazon.com/gp/product/1119975085/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=1789&creative=9325&creativeASIN=1119975085&linkCode=as2&tag=caspervonb-20"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1119975085&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=caspervonb-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=caspervonb-20&l=as2&o=1&a=1119975085" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</figure>
+
+</aside>
