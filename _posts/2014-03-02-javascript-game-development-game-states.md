@@ -280,6 +280,7 @@ class GamePauseState extends GameState {
 
       // ...
    }
+}   
 ```
 ---
 
@@ -322,6 +323,7 @@ class GameOverState extends GameState {
 
       // ...
    }
+}
 ```
 
 <aside style="display: inline-block;">
