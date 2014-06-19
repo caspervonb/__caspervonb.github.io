@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: ECMAScript 6 Features and Tools
+title: ECMAScript 6 Features
 ---
 
 ECMAScript 6 "Harmony" is the upcoming version of the ECMAScript standard, the standard previously said to be ratified in late 2013, is now targeting ratification in late 2014.
@@ -157,8 +157,25 @@ class Monster extends Character {
 }
 ```
 
+### Modules
+Modules provide declarative syntax for the module patterns already in use in today's JavaScript.
+
+```javascript
+// lib/http.js
+export var createServer = function(options) {
+   // ...
+};
+```
+
+```javascript
+// app.js
+import { createServer } from 'http';
+
+createServer(...);
+```
+
 ### Symbols
-Symbol is a new kind of primitive value type, using symbols instead of strings allows you to create properties that don't conflict with other properties because each symbol is unique by nature.
+Symbol is a new kind of primitive value type, using symbols instead of strings/identifiers allows you to create properties that don't conflict with other properties because each symbol is unique by nature.
 
 Example:
 
@@ -278,6 +295,6 @@ assert(s === 'a\n   b\n   c');
 ## Transpilation
 Currently, it's a bit mix and match as to what browser implements which features, and it's going to be a long time before vendors catch up and become feature complete. Even then there is that **one** browser that you know will take even longer to catch up so running this directly harmony in the browser is not feasible.
 
-What we can do however is [transpile](http://en.wikipedia.org/wiki/Source-to-source_compiler) our source code to run in ES5 compatible browsers. Google has a project called [Traceur](https://github.com/google/traceur-compiler) which has been around since 2011, in the early days it was experimentation with possible future syntax, now that future syntax is here and going forward it looks like they are focusing on getting together an ES6 compatible transpiler.
+What we can do however is [transpile](http://en.wikipedia.org/wiki/Source-to-source_compiler) our source code to run in a ES5 compatible browsers. Google has a project called [Traceur](https://github.com/google/traceur-compiler) which has been around since 2011, in the early days it was experimentation with possible future syntax, now that future syntax is here and going forward it looks like they are focusing on getting together an ES6 compatible transpiler.
 
 There is also [es6-transpiler](https://github.com/termi/es6-transpiler) which tries to have cleaner output than Traceur, primarily Traceur has a runtime library, es6-transpiler does not.
